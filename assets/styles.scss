@@ -1,0 +1,52 @@
+$font:	'Pacifico';
+$font2: 'Rubik Mono One';
+
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: $font, cursive;
+	color: gold;
+	text-align: center;
+	text-decoration-line: underline;
+	margin: 60px;
+}
+
+.nav {
+	position: fixed;
+	width: 100%;
+
+	td {
+		text-align: cetner;
+		width: 5%;
+		margin-bottom: 100px;
+		padding-right: 10px;
+
+		a {
+			button {
+				text-decoration: underline;
+				font-weight: 400;
+			}
+		}
+		a:hover {
+			color: blue;	
+		}
+	}
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	boder: gold 200px;
+}
+
+p {
+	font-family: $font2, sans-serif;
+	background-color: blue;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-emphasis: green;
+}

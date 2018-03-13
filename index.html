@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Michael Dmytryshyn's Page</title>
+		<link rel="stylesheet" type="text/css" href="assets/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+		<script>
+			var greeting;
+            var txt;
+            var greetingSpan;
+			var time = new Date();
+            var hours = time.getHours();
+			document.getElementById("time").textContent = time.getTime();
+
+			if (hours < 12) {
+				greeting = "Good morning!";
+                txt = document.createTextNode(greeting);
+                
+			} else if (hours < 17) {
+				greeting = "Good afternoon!";
+                txt = document.createTextNode(greeting);
+			} else {
+				greeting = "Good evening.";
+                txt = document.createTextN:ode(greeting);
+			}
+			greetingSpan = document.getElementById("greeting");
+            greetingSpan.appendChild(txt);
+            
+		</script>
+
+		<div>
+			<table>
+				<tr class="nav">
+					<td><a href="index.html"><button><b>Home</b></button></a></td>
+					<td><a href="bio.html"><button><b>Bio</b></button></a></td>
+					<td><a href="photos.html"><button><b>Photos</b></button></a></td>
+					<td><a href="music.html"><button><b>Music</b></button></a></td>
+					<td><a href="contact.html"><button><b>Contact</b></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</head>
+
+	<body>
+		<h1>WELCOME TO THE MICKEY CHOPS WEBSITE</h1>
+		<img src="unnamed.jpg">
+		<p>
+			The time is: <span id="time"></span><br>
+			<span id="greeting"></span>
+		</p>
+	</body>
+</html>

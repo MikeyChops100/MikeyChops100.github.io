@@ -1,0 +1,69 @@
+.nav > td { 
+text-align: center;
+width: 5%
+}
+
+
+
+.nav > td { padding: 0px }
+
+h1 { font-family: 'Pacifico', cursive;}
+h1 { color: gold; text-align: center;
+    text-decoration-line: underline;
+    margin:60px 
+}
+body {background-color: black}
+
+ .nav {     
+   position: fixed;
+   width:   
+}
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: gold 200px; 
+}
+
+img { border: 50px gold 
+}
+
+.nav > td {
+    margin-bottom: 100px
+    
+    padding-right: 10px;
+   
+}
+ 
+
+.nav > td >a >button { color: gold;
+    text-decoration: underline;
+    font-weight: 400
+} 
+
+.nav > td > a :hover {
+    color: blue;
+}
+
+
+p {font-family: 'Rubik Mono One', sans-serif;
+    background: color blue}
+
+
+p {color: white}
+p{ font-size: 25px}
+p { text-align: center}
+p { background: blue}
+p { text-emphasis: green}
+
+
+
+
+
+
+
+
+
